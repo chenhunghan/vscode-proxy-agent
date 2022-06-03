@@ -25,6 +25,8 @@ export enum LogLevel {
 	Off
 }
 
+export { createPacProxyAgent }
+
 export type ProxyResolveEvent = {
 	count: number;
 	duration: number;
